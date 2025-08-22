@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form>
+        <input type="number" min="0" max="100" placeholder="Write Maths Numbers" name="math" required>
+        <input type="number" min="0" max="100" placeholder="Write Maths Numbers" name="english" required>
+        <input type="number" min="0" max="100" placeholder="Write Urdu Numbers" name="urdu" required>
+        <button type="button" onclick="marks(
+        document.querySelector('[name=math]').value,
+        document.querySelector('[name=english]').value,
+        document.querySelector('[name=urdu]').value)">Calculate</button>
+    </form>
+</body>
+</html>
