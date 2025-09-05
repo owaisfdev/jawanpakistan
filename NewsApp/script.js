@@ -13,7 +13,7 @@ function fetchNews() {
         const card = document.createElement("div");
         card.className = "news-card";
         card.innerHTML = `
-          <img src="${news.image_url || 'https://via.placeholder.com/300'}" alt="News Image">
+          <img src="${news.image_url || 'https://placehold.co/300'}" alt="News Image">
           <h3>${news.title}</h3>
           <p>${news.description || "No description available"}</p>
           <a href="${news.link}" target="_blank">Read More</a>
