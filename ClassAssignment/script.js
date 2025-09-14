@@ -25,8 +25,6 @@ function generatemarksheet() {
                 MathMarks: 90,
             }
         ];
-
-        // sirf ek student search karega
         let student = results.find(s => s.RollNum == rollnum && s.Name == fname);
 
         if (student) {
